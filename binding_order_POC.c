@@ -2,9 +2,9 @@
 
 int main(void)
 {
-    int iNo1=0;
-    int iNo2=1;
-    int iNo3=2;
+    int iNo1 = 0;
+    int iNo2 = 1;
+    int iNo3 = 2;
     int iAns;                                 // 1
 
     iAns = iNo1 || ++iNo2 && iNo3++;
@@ -16,3 +16,4 @@ int main(void)
 // solving :-
 // iAns = ((iNo1 || (++iNo2)) && (iNo3++));
 //      = 1;
+
