@@ -1,5 +1,10 @@
 #include<stdio.h>
-#include"calculation.h"
+
+int addition(int,int);
+void subtraction(void);
+int multiplication(void);
+void division(int,int);
+int modulus(void);
 
 int main(void)
 {
@@ -74,3 +79,4 @@ void division(int no1,int no2)
 {
     printf("Quotient is %d\n\n",no1/no2);                        // 2
 }
+
