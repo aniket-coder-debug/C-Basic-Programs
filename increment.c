@@ -28,8 +28,6 @@ int main(void)
     printf("%d\n",iNo+1);          // 15
     printf("%d\n",iNo);            // 14
 
-   // printf("%d\n",++10);         // error: L value required as increment operand
-   // printf("%d\n",10++);         // error: L value required as increment operand
-
     return 0;
 }
+
