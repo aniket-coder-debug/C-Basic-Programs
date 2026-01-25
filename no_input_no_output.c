@@ -20,3 +20,4 @@ void Addition(void)
     iAns = iNo1 + iNo2;
     printf("Answer is %d\n",iAns);
 }
+
