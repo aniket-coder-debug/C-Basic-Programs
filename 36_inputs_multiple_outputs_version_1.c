@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+void AddSub(int iNo1,int iNo2,int *piSum,int *piDiff);
+
+int main(void)
+{
+    int iNo1;
+    int iNo2;
+    int iSum;
+    int iDiff;
+
+    printf("Enter two numbers:\t");
+    scanf("%d%d",&iNo1,&iNo2);
+
+    AddSub(iNo1,iNo2,&iSum,&iDiff);
+
+    printf("Addition is %d\n",iSum);
+    printf("Subtraction is %d\n",iDiff);
+
+    return 0;
+}
+void AddSub(int iNo1,int iNo2,int *piSum,int *piDiff)
+{
+    *piSum = iNo1 + iNo2;
+    *piDiff = iNo1 - iNo2;
+}
